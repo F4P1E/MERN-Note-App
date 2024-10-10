@@ -1,0 +1,91 @@
+/* Note List Styles */
+.note-list-container {
+    width: 100%; /* Full width for the container */
+    max-width: 600px; /* Max width for larger screens */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+    border-radius: 10px; /* Rounded corners for the container */
+    background-color: #fff; /* White background for notes */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.note-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+.note-item {
+    border-bottom: 1px solid #ddd; /* Separator line between notes */
+    padding: 15px 0; /* Padding for each note */
+    display: flex; /* Flexbox for alignment */
+    justify-content: center; /* Center the content and buttons */
+    align-items: center; /* Center items vertically */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.note-item:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+
+.note-content {
+    flex-grow: 1; /* Allow content to take available space */
+    text-align: center;
+}
+
+.note-title {
+    font-size: 20px; /* Larger font for title */
+    margin: 0; /* Remove margin */
+    color: #333; /* Darker color for title */
+}
+
+.note-text {
+    font-size: 16px; /* Font size for content */
+    color: #555; /* Lighter color for content */
+    margin: 5px 0; /* Margin for spacing */
+}
+
+.note-date {
+    font-size: 12px; /* Smaller font for date */
+    color: #999; /* Light color for date */
+}
+
+.note-buttons {
+    display: flex; /* Flexbox for button alignment */
+    margin-top: 10px;
+    gap: 10px; /* Spacing between buttons */
+}
+
+.edit-button,
+.delete-button {
+    padding: 8px 12px; /* Padding for buttons */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 14px; /* Font size for buttons */
+    transition: background-color 0.3s ease; /* Transition for hover effects */
+}
+
+.edit-button {
+    background-color: #007bff; /* Blue background for edit */
+    color: white; /* White text */
+}
+
+.edit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.delete-button {
+    background-color: #dc3545; /* Red background for delete */
+    color: white; /* White text */
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.empty-note {
+    text-align: center; /* Center the empty note message */
+    font-size: 16px; /* Font size for empty message */
+    color: #888; /* Light color for empty message */
+    padding: 20px; /* Padding for empty message */
+}

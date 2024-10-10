@@ -1,0 +1,55 @@
+.note-form {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px; /* Padding inside the form */
+    display: flex; /* Flex layout */
+    flex-direction: column; /* Stack children vertically */
+    max-width: 400px; /* Max width of the form */
+    margin: 20px auto; /* Center the form */
+  }
+  
+  .note-form h2 {
+    font-size: 24px; /* Heading size */
+    margin-bottom: 15px; /* Space below the heading */
+    text-align: center; /* Center the heading */
+  }
+  
+  .note-form input,
+  .note-form textarea {
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Padding inside inputs */
+    font-size: 16px; /* Font size */
+    margin-bottom: 15px; /* Space below inputs */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in width */
+  }
+  
+  .note-form input:focus,
+  .note-form textarea:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .note-form button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 15px; /* Padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .note-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .note-form .error {
+    color: red; /* Error text color */
+    margin-top: -10px; /* Pull up error message */
+    margin-bottom: 10px; /* Space below error message */
+  }
+  
