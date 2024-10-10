@@ -18,7 +18,7 @@ A simple and modern note-taking application built with React. This app allows us
   - CSS
 
 - **Backend:**
-  - [Your Backend Technology Here, e.g., Node.js, Express, etc.]
+  - Express, Mongoose, Cors, Dotenv, Nodemon.
 
 ## Installation
 
